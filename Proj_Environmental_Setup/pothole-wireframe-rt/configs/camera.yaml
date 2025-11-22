@@ -1,0 +1,14 @@
+camera:
+  resolution: 
+    width: 1920
+    height: 1080
+  frame_rate: 30
+  exposure: auto
+  gain: auto
+  focus: auto
+  brightness: 0.5
+  contrast: 0.5
+  saturation: 0.5
+  white_balance: auto
+  video_format: MJPEG
+  device_index: 0  # Index of the camera device to use

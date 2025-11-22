@@ -1,0 +1,17 @@
+camera_settings:
+  resolution: [1920, 1080]
+  frame_rate: 30
+  exposure: auto
+  white_balance: auto
+
+mesh_reconstruction:
+  algorithm: "Poisson"
+  depth_threshold: 0.5
+  smoothing_iterations: 5
+  min_points_per_mesh: 1000
+
+output:
+  save_mesh: true
+  mesh_format: "PLY"
+  log_reconstruction: true
+  log_file_path: "logs/reconstruction.log"

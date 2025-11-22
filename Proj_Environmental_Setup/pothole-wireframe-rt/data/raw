@@ -1,0 +1,3 @@
+# The data/raw directory is intended to store raw RGB road images. 
+# As such, it does not require any specific files or contents at this time. 
+# This directory is intentionally left blank.

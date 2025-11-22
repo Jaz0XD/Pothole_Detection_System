@@ -1,0 +1,11 @@
+# The contents of the file: /pothole-wireframe-rt/pothole-wireframe-rt/data/processed
+
+# This directory is intended to contain processed images and data for the pothole detection project. 
+# It is currently empty and will be populated with processed data during the execution of the pipeline. 
+
+# Processed data files will typically include:
+# - Processed RGB images
+# - Depth maps
+# - Segmentation masks (if applicable)
+
+# This file is intentionally left blank.

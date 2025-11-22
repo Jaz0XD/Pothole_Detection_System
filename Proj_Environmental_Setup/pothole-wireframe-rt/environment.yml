@@ -1,0 +1,20 @@
+name: pothole-wireframe-rt
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - opencv-python
+  - matplotlib
+  - scipy
+  - pyyaml
+  - jupyter
+  - pip:
+      - ultralytics
+      - torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+      - open3d
+      - tqdm
+      - scikit-learn
+      - imageio
+      - imageio[ffmpeg]

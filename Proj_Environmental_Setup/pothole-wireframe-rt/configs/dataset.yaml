@@ -1,0 +1,23 @@
+dataset:
+  train:
+    images: data/raw/train/images/
+    annotations: data/annotations/train/
+  validation:
+    images: data/raw/validation/images/
+    annotations: data/annotations/validation/
+  test:
+    images: data/raw/test/images/
+    annotations: data/annotations/test/
+  input_size: [640, 640]
+  batch_size: 16
+  num_workers: 4
+  shuffle: true
+  augmentation:
+    - random_flip: true
+    - random_crop: true
+    - normalize: true
+  class_names:
+    - pothole
+    - crack
+    - bump
+    - normal

@@ -1,0 +1,26 @@
+[tool]
+name = "pothole-wireframe-rt"
+version = "0.1.0"
+description = "Real-Time Wireframe-Based Pothole Detection and Avoidance System"
+authors = ["Mohamed B Sirajuddeen <your_email@example.com>"]
+license = "MIT"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+dependencies = [
+    "torch>=1.10.0",
+    "torchvision>=0.11.0",
+    "opencv-python",
+    "open3d",
+    "numpy",
+    "matplotlib",
+    "scipy",
+    "ultralytics",
+    "pyyaml"
+]
+
+[tool.poetry.scripts]
+run_realtime = "src.app:main"
